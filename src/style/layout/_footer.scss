@@ -1,0 +1,53 @@
+footer {
+  background-color: $color_text_fill_9;
+  color: $color_bg_white;
+  font-family: Arial;
+  padding: 40px 0 40px 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+h4 {
+  opacity: 50%;
+}
+
+h3 a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: normal;
+
+}
+
+img {
+  margin: 4px;
+  background: $color_bg_white;
+}
+
+img:hover {
+  background: $color_bg_fill_4;
+}
+
+a:hover {
+  color: $color_bg_fill_4;
+}
+
+p {
+  opacity: 50%;
+}
+
+.license p {
+  margin: 0;
+}

@@ -1,9 +1,5 @@
 # Base Project
 
-
-# git pull        // 
-
-
 # npm i           // install dependencies 
 
 

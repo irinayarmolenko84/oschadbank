@@ -1,0 +1,60 @@
+footer {
+  background-color: $color_text_fill_9;
+  color: $color_text_white;
+  font-family: 'Roboto', sans-serif;
+  padding: 40px 0 40px 70px;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    margin-bottom: 70px;
+  }
+
+  @media screen and (max-width: 640px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $color_text_white;
+    font-size: $font_size_xl;
+    line-height: 2em;
+  }
+
+  .useful_liknks {
+    a {
+      display: block;
+    }
+  }
+
+  img {
+    margin: 0 4px;
+    background: $color_bg_white;
+  }
+
+  img:hover {
+    background: $color_bg_fill_4;
+  }
+
+  a:hover {
+    color: $color_bg_fill_4;
+  }
+
+  p {
+    opacity: 50%;
+    font-size: $font_size_xl;
+  }
+
+  .license p {
+    margin: 0;
+  }
+}
